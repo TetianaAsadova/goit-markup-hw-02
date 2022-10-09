@@ -1,21 +1,116 @@
-body { 
-    background: #FFFFFF;
-    color: #757575;
+:root {
+    --whete-letters: #FFFFFF;
+    --fon: #2F303A;
+    --fonbut: #2196F3;
+    --title-text-color: #212121;
+    --fonbutton: #F5F4FA;
+    --main-text-color: #757575;
 }
+
+body { 
+    background: var(--whete-letters);
+    color: var(--main-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
 
 .logo {
     color: #000000;
 }
 .logo > span {
-     color: #2196F3;
+     color: var(--fonbut);
 }
 
+.logofoot {
+    color: var(--whete-letters);
+}
 
-/* колір лого #000000 #2196F3 */
-/* колір літер хедера вторинний мілкі заголовки #212121 */
-/* колір шрифта hero #FFFFFF */
-/* фон hero і футера background: #2F303A;*/
-/* колір емейлу і тел в футері rgba(255, 255, 255, 0.6); */
-/* колір емейла і тел в хедері #757575 */
-/* фон 2 і3 секцій background: #FFFFFF; */
-/* фон 3 секції background: #F5F4FA */
+.logofoot > span {
+    color: var(--fonbut);
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--fonbut);
+}
+
+.site-nav .link.current {
+    color: var(--fonbut);
+}
+
+/* Site contacts */
+
+.site-cont .linkk {
+    color: var(--main-text-color);
+}
+
+.site-cont .linkk:hover,
+.site-cont .linkk:focus {
+    color: var(--fonbut);
+}
+
+/* section Hero */
+
+.hero {
+    background: var(--fon);
+}
+.hero-title {
+    color: var(--whete-letters);
+}
+.hero-button {
+    color: var(--whete-letters);
+    background: var(--fonbut);
+}
+
+/* Section Benefits */
+
+/* .section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Section Our team */
+.team {
+    background: #F5F4FA;
+}
+
+/* footer */
+
+.footer {
+    background: var(--fon);
+}
+.footer-title {
+    color: var(--whete-letters);
+}
+
+/* portfolio */
+.button {
+    color: var(--title-text-color);
+    background: var(--fonbutton);
+}
+
+.site-but .link {
+    color: var(--title-text-color);
+}
+
+.site-but .link:hover,
+.site-but .link:focus {
+    color: var(--whete-letters);
+    background: var(--fonbut);
+}
+
+.descrip {
+    color: var(--main-text-color);
+}
+
