@@ -10,16 +10,22 @@
 body { 
     background: var(--whete-letters);
     color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .list {
     list-style: none;
 }
-
+/* index.html */
 /* logo */
 
 .logo {
     color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;      
 }
 .logo > span {
      color: var(--fonbut);
@@ -95,7 +101,7 @@ body {
 }
 
 /* portfolio */
-.button {
+.button-type     {
     color: var(--title-text-color);
     background: var(--fonbutton);
 }
