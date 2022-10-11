@@ -11,12 +11,14 @@ body {
     background: var(--whete-letters);
     color: var(--main-text-color);
     font-family: Roboto, sans-serif;
+    font-size: 14px;
     letter-spacing: 0.03em;
 }
 
 .list {
     list-style: none;
 }
+
 /* index.html */
 /* logo */
 
@@ -43,7 +45,6 @@ button {
 .site-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -60,17 +61,16 @@ button {
 
 /* Site contacts */
 
-.site-cont .linkk {
+.site-cont .refer {
     color: var(--main-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
 
-.site-cont .linkk:hover,
-.site-cont .linkk:focus {
+.site-cont .refer:hover,
+.site-cont .refer:focus {
     color: var(--fonbut);
 }
 
@@ -111,8 +111,6 @@ button {
 }
 
 .section-text {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
 }
 
@@ -146,7 +144,6 @@ button {
 }
 
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -167,18 +164,25 @@ button {
     color: var(--fonbut);
 }
 
+.norm {
+    font-style: normal  ;
+}
+
 .footer-cont {
     background: var(--fon);
 }
 .footer-text {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
 }
 
 /* portfolio */
+
+.hidden {
+    display: none;
+}
+
 .button-type     {
     color: var(--title-text-color);
     background: var(--fonbutton); 
@@ -188,14 +192,18 @@ button {
     text-align: center;
 }
 
-.site-but .link {
+.site-click .link {
     color: var(--title-text-color);
 }
 
-.site-but .link:hover,
-.site-but .link:focus {
+.site-click .link:hover,
+.site-click .link:focus {
     color: var(--whete-letters);
     background: var(--fonbut);
+}
+
+.underline {
+    text-decoration: none;
 }
 
 .section-title-portfolio {
@@ -204,13 +212,15 @@ button {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-decoration: none;
 }
 .descrip {
     color: var(--main-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    text-decoration: none;
+}
+
+.norm .footer-text:hover,
+.norm .footer-text:focus {
+    color: var(--fonbut);
 }
 
